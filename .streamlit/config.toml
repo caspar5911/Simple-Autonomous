@@ -1,0 +1,19 @@
+[server]
+address = "127.0.0.1"
+port = 8780
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#326047"
+backgroundColor = "#F5F7F0"
+secondaryBackgroundColor = "#EAF0DF"
+textColor = "#193A2F"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
