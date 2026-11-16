@@ -22,6 +22,16 @@ We are exploring which internal operations workflow is worth piloting. The maint
 
 The pack focuses on **operations and property management**. It includes seven editable Mermaid diagrams, public-source research, clearly labelled assumptions, and proposed evaluation criteria. Future features remain discussion options. GitHub renders the diagrams directly in the Markdown pages.
 
+## Company-wide management discussion
+
+[![Big Tiny: AI across the business](docs/company-presentation-cover.jpg)](docs/company-presentation.mp4)
+
+[Watch the narrated presentation](docs/company-presentation.mp4) · [Editable PowerPoint](docs/company-presentation.pptx) · [Browser slides](docs/company-presentation.html) · [Chapters and transcript](docs/company-presentation.md) · [Subtitles](docs/company-presentation.srt)
+
+A 28-slide presentation for senior management and department heads: 20 proposed functional use cases, benefits for staff, guests, owners and landowner partners, two cross-team scenarios and a staged pilot decision. Each candidate names a practical output, required data, human decision and value test. It distinguishes the current local POC from future tools and integrations. Narration uses a synthetic female Singapore English voice; proposed benefits remain unmeasured. [Detailed use-case catalogue](docs/company-use-cases.md).
+
+The earlier narrated POC walkthrough below is preserved. The company presentation is a separate discussion pack, not a recording of implemented departmental integrations.
+
 ## Narrated management presentation
 
 [![Watch the narrated management presentation](docs/executive-demo-cover.jpg)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/executive-demo.mp4)

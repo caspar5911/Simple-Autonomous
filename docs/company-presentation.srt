@@ -1,0 +1,649 @@
+1
+00:00:00,000 --> 00:00:06,439
+This presentation explores how reviewed AI
+assistance could support Big Tiny across the
+
+2
+00:00:06,439 --> 00:00:12,656
+business, from finance and sales to delivery and
+guest service. It is an opportunity
+
+3
+00:00:12,656 --> 00:00:19,391
+discussion, not an approved roadmap. The aim is
+to reduce administrative effort and improve
+
+4
+00:00:19,391 --> 00:00:24,720
+follow through. We should test those benefits
+before making commitments.
+
+5
+00:00:25,920 --> 00:00:33,193
+The working proof of concept accepts a note,
+proposes task changes or questions, reviews the
+
+6
+00:00:33,193 --> 00:00:40,465
+result, and waits for a person to approve. It
+remembers local tasks. Notes and agent outputs
+
+7
+00:00:40,465 --> 00:00:47,263
+are saved before approval; task changes are not.
+Everything else in this presentation,
+
+8
+00:00:47,263 --> 00:00:53,350
+including source connections and departmental
+tools, is a proposed extension.
+
+9
+00:00:54,550 --> 00:01:01,926
+Customer value is not a single category. Guests
+need accurate information and a prepared stay.
+
+10
+00:01:01,926 --> 00:01:09,301
+Tiny house owners need clear updates supported
+by records. Landowner partners need transparent
+
+11
+00:01:09,301 --> 00:01:16,677
+requirements and reliable handoffs. Some tools
+could help directly. Others, such as finance or
+
+12
+00:01:16,677 --> 00:01:23,660
+staff knowledge support, would benefit customers
+indirectly through better internal work.
+
+13
+00:01:24,860 --> 00:01:31,841
+A future shared service would need
+authentication, permissions and reliable
+records. Begin
+
+14
+00:01:31,841 --> 00:01:38,900
+with read only information and cited drafts. Add
+planning, lookup or review roles only when
+
+15
+00:01:38,900 --> 00:01:46,114
+they help the chosen workflow. Human approval
+must precede external writes or sends. There is
+
+16
+00:01:46,114 --> 00:01:52,320
+no automatic cloud fallback, and the model
+cannot replace professional sign off.
+
+17
+00:01:53,520 --> 00:02:00,384
+For accounts payable and receivable, consider an
+exception assistant. It could compare an
+
+18
+00:02:00,384 --> 00:02:06,708
+invoice with the order and receipt, then draft a
+specific follow up. Deterministic
+
+19
+00:02:06,708 --> 00:02:13,880
+calculations and verified records should
+establish the amounts. Finance checks the result
+and
+
+20
+00:02:13,880 --> 00:02:20,512
+retains control over postings, payments and
+customer communications. Measure exception
+
+21
+00:02:20,512 --> 00:02:22,440
+accuracy and review time.
+
+22
+00:02:23,640 --> 00:02:30,463
+Financial planning could use a cited variance
+brief rather than a fresh narrative assembled
+
+23
+00:02:30,463 --> 00:02:37,285
+each month. The tool would link verified actuals
+and budgets to supporting records, keeping
+
+24
+00:02:37,285 --> 00:02:43,958
+untested explanations separate. Calculations
+should reconcile outside the language model.
+
+25
+00:02:43,958 --> 00:02:50,705
+Finance validates the brief, and management
+decides what to change. No financial return is
+
+26
+00:02:50,705 --> 00:02:51,380
+promised.
+
+27
+00:02:52,580 --> 00:02:59,218
+A sales assistant could turn an enquiry into a
+requirements summary and a list of unanswered
+
+28
+00:02:59,218 --> 00:03:05,999
+questions. It would use approved specifications
+and current prices, not invent capabilities or
+
+29
+00:03:05,999 --> 00:03:12,204
+terms. Sales would approve the proposal before
+it reaches a buyer. The test is whether
+
+30
+00:03:12,204 --> 00:03:18,120
+preparation becomes easier while customers
+receive a clearer, more accurate scope.
+
+31
+00:03:19,320 --> 00:03:26,436
+Marketing could gain a useful first draft
+without giving the model permission to publish.
+A
+
+32
+00:03:26,436 --> 00:03:33,630
+brief would draw from approved features, brand
+guidance and permitted assets. A person would
+
+33
+00:03:33,630 --> 00:03:40,980
+check factual claims and rights. Accessibility,
+pet policies and environmental statements need
+
+34
+00:03:40,980 --> 00:03:47,470
+explicit evidence. Measure correction burden as
+well as the time saved on drafting.
+
+35
+00:03:48,670 --> 00:03:55,425
+Reservations and revenue teams could review
+booking exceptions and demand summaries. The
+
+36
+00:03:55,425 --> 00:04:01,796
+distinction matters: analysis and suggestions do
+not change live rates or bookings.
+
+37
+00:04:01,796 --> 00:04:08,858
+Availability and price statements require fresh
+records. Authorised staff decide and execute
+
+38
+00:04:08,858 --> 00:04:15,767
+any change. Evaluate the accuracy of flagged
+exceptions and the effort required to resolve
+
+39
+00:04:15,767 --> 00:04:18,530
+them, not a promised revenue uplift.
+
+40
+00:04:19,730 --> 00:04:26,180
+A guest service assistant could draft an answer
+with the applicable policy and identify
+
+41
+00:04:26,180 --> 00:04:32,926
+information that still needs checking. It should
+not guess availability, prices or property
+
+42
+00:04:32,926 --> 00:04:39,376
+features. Staff approve all messages and decide
+refunds or other remedies. The intended
+
+43
+00:04:39,376 --> 00:04:45,974
+customer benefit is clearer communication,
+tested through factual accuracy and the effort
+
+44
+00:04:45,974 --> 00:04:48,050
+needed to review each draft.
+
+45
+00:04:49,250 --> 00:04:56,446
+Property operations is close to the existing
+proof of concept. A proposed next step is a
+draft
+
+46
+00:04:56,446 --> 00:05:03,337
+daily handover that connects updates with
+unresolved jobs. Staff would check the property,
+
+47
+00:05:03,337 --> 00:05:10,150
+owner and next action before accepting it. The
+current operational register should remain
+
+48
+00:05:10,150 --> 00:05:16,964
+authoritative during evaluation. Measure missed
+actions and total staff effort, including
+
+49
+00:05:16,964 --> 00:05:17,500
+review.
+
+50
+00:05:18,700 --> 00:05:25,738
+Housekeeping could use a turnover exception list
+that highlights incomplete checks or supply
+
+51
+00:05:25,738 --> 00:05:32,852
+shortages before an arrival. This requires fresh
+schedules and reliable cleaning records. The
+
+52
+00:05:32,852 --> 00:05:39,278
+output is a prompt to verify, not an all clear.
+A supervisor still confirms physical
+
+53
+00:05:39,278 --> 00:05:46,010
+readiness. Measure missing checklist items and
+how early genuine blockers are escalated.
+
+54
+00:05:47,210 --> 00:05:53,712
+Maintenance support could connect follow ups to
+the same equipment issue and assemble its
+
+55
+00:05:53,712 --> 00:06:00,433
+service history. Pattern summaries may suggest
+an investigation, but they do not establish a
+
+56
+00:06:00,433 --> 00:06:06,935
+root cause. Qualified staff retain diagnosis,
+dispatch and completion decisions. Evaluate
+
+57
+00:06:06,935 --> 00:06:13,657
+matching accuracy and duplicate reporting, with
+particular attention to any proposed closure
+
+58
+00:06:13,657 --> 00:06:15,410
+that lacks confirmation.
+
+59
+00:06:16,610 --> 00:06:23,226
+Procurement could compare quotations against the
+same required scope, exposing exclusions
+
+60
+00:06:23,226 --> 00:06:29,767
+instead of ranking prices alone. Inventory
+exceptions could highlight missing materials.
+
+61
+00:06:29,767 --> 00:06:36,383
+Amounts and comparisons need deterministic
+checks against verified records. Buyers select
+
+62
+00:06:36,383 --> 00:06:43,148
+suppliers and approve orders. Measure whether
+important exclusions are retained and whether
+
+63
+00:06:43,148 --> 00:06:46,270
+the full comparison takes less staff time.
+
+64
+00:06:47,470 --> 00:06:53,611
+Engineering and design could use requirement
+tracing and revision summaries to prepare a
+
+65
+00:06:53,611 --> 00:07:00,172
+review. The system would need controlled
+drawings and specifications, not uncontrolled
+copies.
+
+66
+00:07:00,172 --> 00:07:06,662
+It might identify a downstream document needing
+attention, but qualified professionals retain
+
+67
+00:07:06,662 --> 00:07:13,013
+every engineering and safety sign off. The value
+test is fewer missed requirements and less
+
+68
+00:07:13,013 --> 00:07:13,990
+review rework.
+
+69
+00:07:15,190 --> 00:07:21,784
+Manufacturing and quality teams could receive an
+inspection evidence pack organised around a
+
+70
+00:07:21,784 --> 00:07:28,306
+unit and its defects. Missing records should
+remain explicit rather than becoming a guessed
+
+71
+00:07:28,306 --> 00:07:34,470
+pass. The quality lead decides release or
+rejection and any corrective action. Measure
+
+72
+00:07:34,470 --> 00:07:41,207
+traceability completeness and report preparation
+effort, while preserving the existing quality
+
+73
+00:07:41,207 --> 00:07:41,780
+process.
+
+74
+00:07:42,980 --> 00:07:49,577
+Logistics and installation support could surface
+a dependency that is easy to lose between
+
+75
+00:07:49,577 --> 00:07:56,247
+teams, such as unconfirmed site access. It would
+assemble an evidence based handover rather
+
+76
+00:07:56,247 --> 00:08:02,843
+than make delivery promises. Responsible leads
+approve dispatch and site acceptance. Track
+
+77
+00:08:02,843 --> 00:08:09,000
+prerequisites discovered too late and the effort
+spent reconciling schedule changes.
+
+78
+00:08:10,200 --> 00:08:17,077
+For landowner partnerships and expansion, a tool
+could organise an initial site brief and its
+
+79
+00:08:17,077 --> 00:08:23,436
+unanswered questions. Public information or a
+completed form cannot prove feasibility.
+
+80
+00:08:23,436 --> 00:08:30,091
+Specialists must assess the site, and authorised
+people approve commitments. The potential
+
+81
+00:08:30,091 --> 00:08:36,671
+partner benefit is a clearer process. Measure
+missing evidence and the effort required to
+
+82
+00:08:36,671 --> 00:08:38,520
+prepare the first review.
+
+83
+00:08:39,720 --> 00:08:46,409
+Owner relations could assemble an update from
+authorised records and approved statements. This
+
+84
+00:08:46,409 --> 00:08:53,097
+is different from guest communication and must
+respect the owner's specific agreement. Finance
+
+85
+00:08:53,097 --> 00:08:59,359
+and owner relations check the facts before
+sending. The system must not create financial
+
+86
+00:08:59,359 --> 00:09:05,621
+return promises. Evaluate statement corrections
+and the time needed to answer an owner's
+
+87
+00:09:05,621 --> 00:09:06,190
+enquiry.
+
+88
+00:09:07,390 --> 00:09:14,131
+Staff support can include sourced onboarding,
+meeting follow ups and cross border language
+
+89
+00:09:14,131 --> 00:09:20,947
+assistance. Translation still needs a competent
+reviewer, particularly for safety or policy
+
+90
+00:09:20,947 --> 00:09:27,987
+instructions. Use approved guides and permitted
+notes, with no autonomous hiring or employment
+
+91
+00:09:27,987 --> 00:09:34,653
+decisions. The hypothesis is less repeated
+explanation and clearer coordination, measured
+
+92
+00:09:34,653 --> 00:09:37,200
+through accuracy and staff effort.
+
+93
+00:09:38,400 --> 00:09:45,116
+Knowledge support should return the approved
+procedure a person is allowed to see, with its
+
+94
+00:09:45,116 --> 00:09:52,053
+source and revision. Access control must be
+enforced by the system, not delegated to a
+prompt.
+
+95
+00:09:52,053 --> 00:09:58,990
+IT retains operational change decisions.
+Evaluate cited answer accuracy and search
+effort, and
+
+96
+00:09:58,990 --> 00:10:04,820
+treat any unauthorised disclosure as a serious
+failure requiring investigation.
+
+97
+00:10:06,020 --> 00:10:12,688
+Legal and compliance assistance could prepare
+clause comparisons and obligation checklists for
+
+98
+00:10:12,688 --> 00:10:19,215
+a professional reviewer. Relevant jurisdiction
+and approved templates are essential. It does
+
+99
+00:10:19,215 --> 00:10:25,599
+not provide final legal advice or establish
+compliance. Counsel and authorised signatories
+
+100
+00:10:25,599 --> 00:10:31,912
+retain those decisions. Measure missed
+obligations and corrections rather than treating
+a
+
+101
+00:10:31,912 --> 00:10:34,750
+fluent summary as a reliable conclusion.
+
+102
+00:10:35,950 --> 00:10:42,617
+Sustainability support should begin with an
+evidence register. It could connect a proposed
+
+103
+00:10:42,617 --> 00:10:49,580
+statement to measurements and methods, or flag
+the absence of support. Responsible specialists
+
+104
+00:10:49,580 --> 00:10:56,395
+approve the methodology and the claim. The
+intended customer benefit is better
+substantiated
+
+105
+00:10:56,395 --> 00:11:03,136
+information, not an assumed environmental
+result. Measure evidence coverage and
+unsupported
+
+106
+00:11:03,136 --> 00:11:05,210
+claims caught during review.
+
+107
+00:11:06,410 --> 00:11:13,350
+Leadership could use a structured options memo
+that distinguishes evidence, assumptions and
+
+108
+00:11:13,350 --> 00:11:20,138
+unresolved questions. Internal reports and
+external research need citations and an agreed
+
+109
+00:11:20,138 --> 00:11:27,002
+scope. The useful output is a clearer decision,
+not a recommendation that executes itself.
+
+110
+00:11:27,002 --> 00:11:33,714
+Leaders choose resources and experiments.
+Measure preparation effort and source quality,
+
+111
+00:11:33,714 --> 00:11:37,680
+without claiming an unmeasured return on
+investment.
+
+112
+00:11:38,880 --> 00:11:45,677
+Imagine a fictional water fault shortly before
+arrival. A reviewed workflow could connect the
+
+113
+00:11:45,677 --> 00:11:52,035
+cleaner's report, the maintenance record and a
+fresh arrival schedule, then prepare the
+
+114
+00:11:52,035 --> 00:11:58,466
+handover and guest briefing. People still
+confirm the repair and physical readiness, and
+
+115
+00:11:58,466 --> 00:12:05,117
+approve any message, relocation or refund. A
+closed task alone does not prove a property is
+
+116
+00:12:05,117 --> 00:12:06,140
+safe or ready.
+
+117
+00:12:07,340 --> 00:12:14,346
+For a fictional new property launch, an evidence
+checklist could expose a missing site answer
+
+118
+00:12:14,346 --> 00:12:21,351
+or a drawing revision before it disrupts
+procurement or handover. Each team validates its
+own
+
+119
+00:12:21,351 --> 00:12:27,980
+record. Specialists retain professional sign
+off, and management approves launch timing.
+
+120
+00:12:27,980 --> 00:12:34,835
+Marketing and reservations use approved facts
+only. The test is whether handoff gaps become
+
+121
+00:12:34,835 --> 00:12:36,040
+visible earlier.
+
+122
+00:12:37,240 --> 00:12:44,438
+Do not build twenty tools at once. Start with
+handover and maintenance follow up, closest to
+
+123
+00:12:44,438 --> 00:12:51,557
+today’s proof of concept. Consider sourced
+procedure lookup and quote comparison next, when
+
+124
+00:12:51,557 --> 00:12:58,911
+the records are ready. Choose an accountable
+owner, authorised examples and a reviewer. Run
+in
+
+125
+00:12:58,911 --> 00:13:06,187
+shadow mode and measure total effort, including
+checking. Add transactional integrations only
+
+126
+00:13:06,187 --> 00:13:09,160
+if evidence and controls justify them.
+
+127
+00:13:10,360 --> 00:13:17,483
+The management decision is to select one
+workflow worth testing, name its owner, and
+agree
+
+128
+00:13:17,483 --> 00:13:24,053
+authorised sample data, a baseline and a pilot
+review date. Keep the current system
+
+129
+00:13:24,053 --> 00:13:31,414
+authoritative while evaluating. Compare against
+the manual process and a simpler alternative.
+
+130
+00:13:31,414 --> 00:13:38,854
+If the evidence supports improvement, extend one
+workflow at a time. Otherwise revise or stop.
+
+131
+00:13:38,854 --> 00:13:42,020
+Let useful outcomes guide the next step.
