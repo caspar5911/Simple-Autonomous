@@ -22,6 +22,14 @@ We are exploring which internal operations workflow is worth piloting. The maint
 
 The pack focuses on **operations and property management**. It includes seven editable Mermaid diagrams, public-source research, clearly labelled assumptions, and proposed evaluation criteria. Future features remain discussion options. GitHub renders the diagrams directly in the Markdown pages.
 
+## Narrated management presentation
+
+[![Watch the narrated management presentation](docs/executive-demo-cover.jpg)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/executive-demo.mp4)
+
+[Watch or download the presentation with female neural narration](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/executive-demo.mp4) · [Chapters and transcript](docs/executive-presentation.md) · [Optional subtitles](docs/executive-demo.srt)
+
+A widescreen presentation for management: the operational problem, proposed value, open-source architecture, a fresh real-GX10 walkthrough, current limits, and a focused pilot decision request. Productivity targets are explicitly presented as proposed evaluation criteria, not proven results. The walkthrough uses fictional records; the narration is a synthetic Singapore English female voice.
+
 ## End-to-end video
 
 [Watch or download the 91-second demo (MP4, 2.6 MB)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/end-to-end-demo.mp4)

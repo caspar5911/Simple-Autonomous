@@ -1,0 +1,117 @@
+1
+00:00:00,600 --> 00:00:12,890
+Meet the Big Tiny Operations Brain. This proof of concept explores a simple
+idea: spend less time organising updates, and make the next action easier to
+see.
+
+2
+00:00:14,050 --> 00:00:36,970
+For a property operations team, the challenge is often turning scattered
+updates into a reliable handover. Which issue is still open? Who owns the
+next step? Has a follow up changed the plan? Our hypothesis is that
+preparing and checking this information is a useful place to reduce
+administrative effort.
+
+3
+00:00:38,119 --> 00:00:58,139
+The proposed value is straightforward: clearer handovers, fewer duplicate
+tasks, and less time chasing context. The current proof of concept
+demonstrates the workflow. It does not yet prove a productivity gain. That
+is what a focused pilot should establish.
+
+4
+00:00:59,291 --> 00:01:19,811
+Here is how it works. Streamlit provides the workspace. LangGraph
+coordinates three specialist roles. They use the same on premises G X ten
+model through Tailscale. SQLite remembers approved tasks, so each new update
+has context.
+
+5
+00:01:22,104 --> 00:01:35,974
+This is the working application. We will use fictional maintenance notes and
+real model responses. Notes are stored when submitted, but task changes
+always wait for a person to approve.
+
+6
+00:01:36,720 --> 00:01:48,650
+First, a staff member reports a dripping tap at Cedar Grove cabin. Maya
+needs to arrange a plumber. The note also includes a deadline.
+
+7
+00:01:49,402 --> 00:02:01,572
+The extractor finds the facts. The coordinator checks saved tasks and
+proposes what should happen next. The reviewer checks that the proposal is
+supported by the note.
+
+8
+00:02:02,305 --> 00:02:16,515
+Here is the proposed task, with an owner, a due date, and the original
+evidence. The reviewer has passed it, but the final decision is still yours.
+Let us approve it.
+
+9
+00:02:18,190 --> 00:02:26,830
+The first task is now saved in local memory. This is what allows the brain
+to connect future updates to the same issue.
+
+10
+00:02:27,585 --> 00:02:39,125
+Now there is a follow up. Maya has booked the plumber, and the visit is
+scheduled for November twenty fourth. The repair is not yet complete.
+
+11
+00:02:39,921 --> 00:02:50,861
+This time, the coordinator receives the existing task as context. It can
+propose an update to the same record instead of creating another task.
+
+12
+00:02:51,604 --> 00:03:03,174
+The proposed change keeps the same task identity and revises the visit date.
+After approval, there is still one task, and it remains in progress.
+
+13
+00:03:07,383 --> 00:03:18,203
+Finally, someone asks to mark the maintenance job complete, but cannot say
+which cabin or which job. This is where guessing would be a problem.
+
+14
+00:03:18,942 --> 00:03:29,982
+The workflow checks the request against what it knows. An unclear completion
+request should become a question, not an unsupported change to a property
+record.
+
+15
+00:03:30,719 --> 00:03:41,399
+The result is a clarification. We can acknowledge the question and provide
+more detail later. The existing task stays unfinished.
+
+16
+00:03:45,623 --> 00:04:08,713
+Today, the system can propose new tasks, update remembered tasks, and ask
+for clarification. It does not connect to booking systems, contact vendors,
+or make purchases. Property readiness checks, procedure lookup, and weekly
+reporting are possible next steps, if staff evidence supports them.
+
+17
+00:04:09,855 --> 00:04:33,135
+Our recommendation is a small pilot for daily handovers and maintenance
+follow ups. Name an operations owner, select a representative property
+group, and evaluate approved examples with staff. Keep the current
+operational register authoritative. Compare this workflow with the manual
+process and a simpler single prompt.
+
+18
+00:04:34,287 --> 00:04:59,297
+Measure net staff time, including checking and corrections. Also measure
+missed actions, wrong task matches, and unsupported changes. A proposed
+initial target is a twenty five percent reduction in median active staff
+time, with no critical incorrect changes accepted. These are pilot targets,
+not achieved results.
+
+19
+00:05:00,437 --> 00:05:25,277
+The decision requested is approval to run a bounded discovery and pilot,
+with an owner, authorised examples, and agreed success measures. If the
+evidence is strong, extend one workflow at a time. If it is not, revise or
+stop. Start small, keep people in control, and let measured results guide
+the investment.
