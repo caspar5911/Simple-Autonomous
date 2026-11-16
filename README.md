@@ -10,6 +10,18 @@ The application uses established open-source components rather than a custom age
 
 One model supplies three role prompts; these are perspectives, not three independent models. The custom Python code is limited to the business prompts, validation, transaction rules and dashboard composition. No LangSmith account, cloud orchestration, SaaS database or paid API is required for the GX10 configuration. Source is inspectable and portable; dependency licenses remain their respective owners'.
 
+## Architecture and direction workshop
+
+We are exploring which internal operations workflow is worth piloting. The maintenance demo proves the basic flow; it is not a commitment to build a company-wide autonomous system.
+
+| Read | What it helps decide |
+| --- | --- |
+| [Architecture diagrams](docs/architecture.md) | What exists today, how memory and approvals work, and what a future shared system would require |
+| [Discovery and pilot proposal](docs/discovery-proposal.md) | Compare handovers, maintenance, SOP lookup, readiness, quotations and internal improvement research |
+| [Brainstorming workshop](docs/brainstorm-workshop.md) | Run a 45-minute staff discussion, capture evidence and select one measurable experiment |
+
+The pack focuses on **operations and property management**. It includes seven editable Mermaid diagrams, public-source research, clearly labelled assumptions, and proposed evaluation criteria. Future features remain discussion options. GitHub renders the diagrams directly in the Markdown pages.
+
 ## End-to-end video
 
 [Watch or download the 91-second demo (MP4, 2.6 MB)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/end-to-end-demo.mp4)
