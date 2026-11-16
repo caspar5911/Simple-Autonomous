@@ -22,17 +22,25 @@ We are exploring which internal operations workflow is worth piloting. The maint
 
 The pack focuses on **operations and property management**. It includes seven editable Mermaid diagrams, public-source research, clearly labelled assumptions, and proposed evaluation criteria. Future features remain discussion options. GitHub renders the diagrams directly in the Markdown pages.
 
-## Company-wide management discussion
+## Company-wide narrated presentation — start here
 
-[![Big Tiny: AI across the business](docs/company-presentation-cover.jpg)](docs/company-presentation.mp4)
+[![Watch Big Tiny: AI across the business with narration](docs/company-presentation-cover.jpg)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/company-presentation.mp4)
 
-[Watch the narrated presentation](docs/company-presentation.mp4) · [Editable PowerPoint](docs/company-presentation.pptx) · [Browser slides](docs/company-presentation.html) · [Chapters and transcript](docs/company-presentation.md) · [Subtitles](docs/company-presentation.srt)
+**[Watch or download the narrated presentation (MP4)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/company-presentation.mp4)** — 13 minutes 44 seconds, 1080p, with a synthetic female Singapore English voice throughout. The narration is included in the video. If GitHub does not play it inline, download the MP4 and open it in a video player with sound enabled.
+
+| Format | What it includes |
+| --- | --- |
+| [Narrated video (MP4)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/company-presentation.mp4) | Slides with spoken narration, embedded subtitles and 28 chapters |
+| [Editable PowerPoint](docs/company-presentation.pptx) | 28 editable slides and narration scripts in speaker notes; no embedded audio |
+| [Browser slides](docs/company-presentation.html) | Slides with navigation and expandable narration text; no audio. Download the HTML file and open it in a browser. |
+| [Chapters and transcript](docs/company-presentation.md) | Written narration and chapter timestamps |
+| [Subtitles (SRT)](docs/company-presentation.srt) | Separate subtitle file for video players |
 
 A 28-slide presentation for senior management and department heads: 20 proposed functional use cases, benefits for staff, guests, owners and landowner partners, two cross-team scenarios and a staged pilot decision. Each candidate names a practical output, required data, human decision and value test. It distinguishes the current local POC from future tools and integrations. Narration uses a synthetic female Singapore English voice; proposed benefits remain unmeasured. [Detailed use-case catalogue](docs/company-use-cases.md).
 
 The earlier narrated POC walkthrough below is preserved. The company presentation is a separate discussion pack, not a recording of implemented departmental integrations.
 
-## Narrated management presentation
+## Earlier narrated POC walkthrough
 
 [![Watch the narrated management presentation](docs/executive-demo-cover.jpg)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/executive-demo.mp4)
 
