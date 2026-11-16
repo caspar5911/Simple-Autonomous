@@ -10,6 +10,19 @@ The application uses established open-source components rather than a custom age
 
 One model supplies three role prompts; these are perspectives, not three independent models. The custom Python code is limited to the business prompts, validation, transaction rules and dashboard composition. No LangSmith account, cloud orchestration, SaaS database or paid API is required for the GX10 configuration. Source is inspectable and portable; dependency licenses remain their respective owners'.
 
+## End-to-end video
+
+[Watch or download the 91-second demo (MP4, 2.6 MB)](https://github.com/caspar5911/Simple-Autonomous/raw/refs/heads/main/docs/end-to-end-demo.mp4)
+
+A captioned screen recording of the actual Streamlit app using the on-prem GX10 model through Tailscale. It demonstrates:
+
+1. Submit a fictional maintenance note and watch the three agent roles.
+2. Review and approve a new task.
+3. Submit a follow-up and approve an update to the same saved task.
+4. Submit an ambiguous request and acknowledge a clarification without completing the task.
+
+Recorded on 2026-11-16 with a separate temporary database and nine real model calls. Captions explain the flow; there is no audio. The final database was checked to contain one unfinished task with the revised date and three approval records. No real business data appears in the recording. If GitHub does not play the file inline, download it and open it in a video player.
+
 ## Quick start: Linux or WSL
 
 Prerequisites: Python **3.14** (the tested version), `venv`, package download access for installation, and tailnet access to GX10. Other Python versions have not been verified against the frozen dependency set.
